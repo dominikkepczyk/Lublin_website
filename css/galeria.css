@@ -1,0 +1,25 @@
+.img-thumbnail {
+    max-width: 200px; /* Ustawia maksymalną szerokość miniaturki obrazu na 200px */
+    height: auto; /* Automatycznie dostosowuje wysokość, aby zachować proporcje */
+    transition: transform 0.2s; /* Dodaje płynne przejście dla transformacji */
+}
+
+.img-thumbnail:hover {
+    transform: scale(1.05); /* Powiększa obrazek o 5% przy najechaniu kursorem */
+}
+
+.modal-dialog {
+    max-width: 80%; /* Ustawia maksymalną szerokość na 80% szerokości ekranu */
+    margin: auto; /* Wyśrodkowuje modal */
+}
+
+.modal-body img {
+    width: 100%; /* Ustawia szerokość obrazu w modal na 100% szerokości kontenera */
+    height: auto; /* Automatycznie dostosowuje wysokość, aby zachować proporcje */
+}
+
+@media (max-width: 768px) {
+    .img-thumbnail {
+        max-width: 150px; /* Ustawia maksymalną szerokość miniaturki obrazu na 150px dla ekranów o szerokości mniejszej niż 768px */
+    }
+}

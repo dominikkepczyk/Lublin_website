@@ -1,0 +1,205 @@
+#chatbot-icon {
+    position: fixed; /* Ustawienie pozycji na stałą */
+    bottom: 20px; /* Odległość od dołu */
+    right: 20px; /* Odległość od prawej */
+    width: 50px; /* Szerokość ikony */
+    height: 50px; /* Wysokość ikony */
+    cursor: pointer; /* Wskaźnik kursora jako wskaźnik */
+    z-index: 1000; /* Warstwa ikony ponad innymi elementami */
+    transition: transform 0.3s ease; /* Płynne przeskalowanie przy najechaniu */
+}
+
+#chatbot-icon img {
+    width: 100%; /* Szerokość obrazu */
+    height: 100%; /* Wysokość obrazu */
+}
+
+#chatbot-icon:hover {
+    transform: scale(1.1); /* Skalowanie ikony przy najechaniu */
+}
+
+.chatbot-window {
+    display: none; /* Początkowo ukrycie okna */
+    position: fixed; /* Stała pozycja */
+    bottom: 70px; /* Odległość od dołu */
+    right: 20px; /* Odległość od prawej */
+    width: 300px; /* Szerokość okna */
+    height: 400px; /* Wysokość okna */
+    background-color: white; /* Białe tło */
+    border-radius: 10px; /* Zaokrąglone rogi */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Cień okna */
+    z-index: 1000; /* Warstwa okna ponad innymi elementami */
+    flex-direction: column; /* Kolumnowy układ flex */
+    justify-content: space-between; /* Rozmieszczenie przestrzeni między elementami */
+    opacity: 0; /* Początkowa przezroczystość */
+    transform: scale(0.9); /* Początkowa skala */
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Płynna zmiana skali i przezroczystości */
+    overflow: hidden; /* Ukrycie nadmiarowej treści */
+    min-width: 405px; /* Minimalna szerokość okna */
+    min-height: 439px; /* Minimalna wysokość okna */
+}
+
+.chatbot-window.open {
+    opacity: 1; /* Widoczność okna */
+    transform: scale(1); /* Normalna skala */
+    display: flex; /* Wyświetlenie okna */
+}
+
+.chatbot-header {
+    display: flex; /* Flexbox */
+    justify-content: space-between; /* Rozmieszczenie przestrzeni między elementami */
+    align-items: center; /* Wyrównanie elementów w pionie */
+    padding: 10px; /* Padding wewnętrzny */
+    background-color: #0085A1; /* Kolor tła nagłówka */
+    color: white; /* Kolor tekstu */
+    border-radius: 10px 10px 0 0; /* Zaokrąglenie górnych rogów */
+}
+
+.chatbot-close {
+    background: none; /* Brak tła */
+    border: none; /* Brak obramowania */
+    color: white; /* Kolor tekstu */
+    font-size: 1.5em; /* Rozmiar czcionki */
+    cursor: pointer; /* Wskaźnik kursora jako wskaźnik */
+}
+
+.chatbot-body {
+    flex: 1; /* Elastyczna wysokość */
+    display: flex; /* Flexbox */
+    flex-direction: column; /* Kolumnowy układ flex */
+    overflow-y: auto; /* Przewijanie w pionie */
+    padding: 10px; /* Padding wewnętrzny */
+}
+
+.chatbot-footer {
+    display: flex; /* Flexbox */
+    flex-direction: column; /* Kolumnowy układ flex */
+    padding: 10px; /* Padding wewnętrzny */
+    background-color: #f1f1f1; /* Kolor tła */
+    border-radius: 0 0 10px 10px; /* Zaokrąglenie dolnych rogów */
+}
+
+.chatbot-suggestions {
+    display: flex; /* Flexbox */
+    overflow-x: auto; /* Przewijanie w poziomie */
+    margin-bottom: 10px; /* Margines dolny */
+    padding-bottom: 10px;
+    flex-shrink: 0; /* Zablokowanie kurczenia */
+}
+
+.suggestion {
+    background-color: #f1f1f1; /* Kolor tła sugestii */
+    border: none; /* Brak obramowania */
+    margin: 2px; /* Margines */
+    padding: 5px 10px; /* Padding wewnętrzny */
+    border-radius: 5px; /* Zaokrąglenie rogów */
+    cursor: pointer; /* Wskaźnik kursora jako wskaźnik */
+    flex: 0 0 auto; /* Zablokowanie elastyczności */
+    font-size: 0.85em; /* Zmniejszenie rozmiaru tekstu */
+}
+
+.suggestion:hover {
+    background-color: #ddd; /* Kolor tła przy najechaniu */
+}
+
+.chatbot-input-container {
+    display: flex; /* Flexbox */
+}
+
+.chatbot-footer button {
+    margin-left: 5px; /* Margines z lewej */
+    padding: 5px 10px; /* Padding wewnętrzny */
+    background-color: #0085A1; /* Kolor tła przycisku */
+    color: white; /* Kolor tekstu */
+    border: none; /* Brak obramowania */
+    border-radius: 5px; /* Zaokrąglenie rogów */
+    cursor: pointer; /* Wskaźnik kursora jako wskaźnik */
+    font-size: 0.85em; /* Zmniejszenie rozmiaru tekstu */
+}
+
+.chatbot-footer button:hover {
+    background-color: #00708A; /* Kolor tła przy najechaniu */
+}
+
+.chatbot-footer input {
+    flex: 1; /* Elastyczna szerokość */
+    font-size: 0.85em; /* Zmniejszenie rozmiaru tekstu */
+}
+
+.user-message {
+    background-color: #e1ffc7; /* Kolor tła wiadomości użytkownika */
+    padding: 5px 10px; /* Padding wewnętrzny */
+    margin-bottom: 5px; /* Margines dolny */
+    border-radius: 5px; /* Zaokrąglenie rogów */
+    align-self: flex-end; /* Wyrównanie do prawej */
+}
+
+.bot-message {
+    background-color: #f1f0f0; /* Kolor tła wiadomości bota */
+    padding: 5px 10px; /* Padding wewnętrzny */
+    margin-bottom: 5px; /* Margines dolny */
+    border-radius: 5px; /* Zaokrąglenie rogów */
+    align-self: flex-start; /* Wyrównanie do lewej */
+}
+
+/* Uchwyty do zmiany rozmiaru */
+.resizer {
+    position: absolute; /* Absolutna pozycja */
+    background: transparent; /* Przezroczyste tło */
+}
+
+.resizer-top {
+    top: 0; /* Przyleganie do góry */
+    left: 0; /* Przyleganie do lewej */
+    right: 0; /* Przyleganie do prawej */
+    height: 10px; /* Wysokość uchwytu */
+    cursor: ns-resize; /* Wskaźnik kursora do zmiany rozmiaru w pionie */
+}
+
+.resizer-right {
+    top: 0; /* Przyleganie do góry */
+    right: 0; /* Przyleganie do prawej */
+    bottom: 0; /* Przyleganie do dołu */
+    width: 10px; /* Szerokość uchwytu */
+    cursor: ew-resize; /* Wskaźnik kursora do zmiany rozmiaru w poziomie */
+}
+
+.resizer-bottom {
+    bottom: 0; /* Przyleganie do dołu */
+    left: 0; /* Przyleganie do lewej */
+    right: 0; /* Przyleganie do prawej */
+    height: 10px; /* Wysokość uchwytu */
+    cursor: ns-resize; /* Wskaźnik kursora do zmiany rozmiaru w pionie */
+}
+
+.resizer-left {
+    top: 0; /* Przyleganie do góry */
+    bottom: 0; /* Przyleganie do dołu */
+    left: 0; /* Przyleganie do lewej */
+    width: 10px; /* Szerokość uchwytu */
+    cursor: ew-resize; /* Wskaźnik kursora do zmiany rozmiaru w poziomie */
+}
+
+/* Responsywność */
+@media (max-width: 768px) {
+    .chatbot-window {
+        width: 100%; /* Szerokość 100% */
+        height: 50%; /* Wysokość 50% */
+        bottom: 0; /* Przyleganie do dołu */
+        right: 0; /* Przyleganie do prawej */
+        border-radius: 0; /* Brak zaokrąglenia rogów */
+    }
+
+    .chatbot-footer {
+        flex-direction: column; /* Kolumnowy układ flex */
+    }
+
+    .chatbot-footer button {
+        margin-left: 0; /* Brak marginesu z lewej */
+        margin-top: 5px; /* Margines górny */
+    }
+}
+#chatbot-container {
+    z-index: 1000; /* Warstwa kontenera ponad innymi elementami */
+}
+

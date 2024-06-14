@@ -1,0 +1,80 @@
+/* Stylowanie dla formularza */
+form .form-floating {
+    margin-bottom: 1rem; /* Dodaje odstęp poniżej elementów formularza z klasą form-floating */
+}
+
+form button {
+    margin-right: 0.5rem; /* Dodaje odstęp po prawej stronie przycisków w formularzu */
+}
+
+button.disabled {
+    pointer-events: none; /* Wyłącza możliwość interakcji z przyciskami, które mają klasę disabled */
+    opacity: 0.6; /* Zmniejsza widoczność przycisków, które mają klasę disabled */
+}
+
+/* Stylowanie nagłówków */
+header.masthead {
+    padding-top: 8rem; /* Dodaje odstęp od góry */
+    padding-bottom: 8rem; /* Dodaje odstęp od dołu */
+    text-align: center; /* Wyrównuje tekst do środka */
+    color: #fff; /* Ustawia kolor tekstu na biały */
+    background-size: cover; /* Ustawia tło nagłówka tak, aby pokrywało cały obszar */
+    background-position: center; /* Ustawia tło nagłówka na środek */
+}
+
+header.masthead .site-heading {
+    font-size: 3rem; /* Ustawia rozmiar czcionki */
+    font-weight: 700; /* Ustawia pogrubienie czcionki */
+}
+
+header.masthead .subheading {
+    font-size: 1.5rem; /* Ustawia rozmiar czcionki */
+    font-weight: 300; /* Ustawia pogrubienie czcionki */
+    margin-bottom: 1rem; /* Dodaje odstęp poniżej nagłówka */
+}
+
+/* Stylowanie przycisków */
+.btn-primary {
+    background-color: #007bff; /* Ustawia kolor tła na niebieski */
+    border-color: #007bff; /* Ustawia kolor obramowania na niebieski */
+}
+
+.btn-secondary {
+    background-color: #6c757d; /* Ustawia kolor tła na szary */
+    border-color: #6c757d; /* Ustawia kolor obramowania na szary */
+}
+
+/* Stylowanie pola podglądu zamówienia */
+#orderPreview {
+    background-color: #f8f9fa; /* Ustawia kolor tła na jasnoszary */
+    padding: 1rem; /* Dodaje wewnętrzny odstęp */
+    border: 1px solid #dee2e6; /* Ustawia obramowanie na jasnoszary kolor */
+    border-radius: 0.375rem; /* Zaokrągla rogi obramowania */
+    white-space: pre-wrap; /* Zapewnia zawijanie długich linii tekstu */
+}
+
+/* Stylowanie dla walidacji */
+.is-invalid {
+    border-color: #dc3545; /* Ustawia kolor obramowania na czerwony dla niepoprawnych pól */
+}
+
+.is-invalid:focus {
+    box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25); /* Dodaje cień wokół niepoprawnych pól */
+}
+
+.is-valid {
+    border-color: #198754; /* Ustawia kolor obramowania na zielony dla poprawnych pól */
+}
+
+.is-valid:focus {
+    box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.25); /* Dodaje cień wokół poprawnych pól */
+}
+
+/* Stylowanie dla formularza edycji */
+#editForm {
+    margin-top: 2rem; /* Dodatkowy odstęp powyżej formularza edycji */
+}
+
+#editForm .form-floating {
+    margin-bottom: 1rem; /* Dodaje odstęp poniżej elementów formularza z klasą form-floating */
+}

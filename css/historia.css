@@ -1,0 +1,104 @@
+.gallery img {
+    width: 100%; /* Ustawia szerokość obrazu na 100% kontenera */
+    height: auto; /* Automatycznie dostosowuje wysokość, aby zachować proporcje */
+    cursor: pointer; /* Ustawia kursor na wskaźnik przy najechaniu */
+    margin-bottom: 10px; /* Dodaje odstęp poniżej obrazka */
+}
+
+.modal-content img {
+    width: 100%; /* Ustawia szerokość obrazu na 100% kontenera */
+}
+
+.timeline {
+    position: relative; /* Ustawia pozycjonowanie relatywne dla osi czasu */
+    max-width: 1200px; /* Maksymalna szerokość osi czasu */
+    margin: 20px auto; /* Automatycznie wyśrodkowuje oś czasu, dodaje odstępy pionowe */
+    padding: 0 20px; /* Dodaje odstępy poziome */
+    list-style: none; /* Usuwa styl listy */
+}
+
+.timeline::after {
+    content: ''; /* Tworzy pseudoelement */
+    position: absolute; /* Ustawia pozycjonowanie absolutne */
+    width: 6px; /* Ustawia szerokość linii osi czasu */
+    background-color: #ddd; /* Ustawia kolor tła linii osi czasu */
+    top: 0; /* Ustawia linię od góry */
+    bottom: 0; /* Ustawia linię do dołu */
+    left: 50%; /* Ustawia linię na środku osi czasu */
+    margin-left: -3px; /* Przesuwa linię o połowę jej szerokości, aby była wyśrodkowana */
+}
+
+.timeline-item {
+    padding: 20px 30px; /* Dodaje odstępy wewnętrzne */
+    position: relative; /* Ustawia pozycjonowanie relatywne */
+    background-color: inherit; /* Dziedziczy kolor tła */
+    width: 50%; /* Ustawia szerokość na 50% kontenera */
+}
+
+.left {
+    left: 0; /* Ustawia pozycję elementów po lewej stronie */
+}
+
+.right {
+    left: 50%; /* Ustawia pozycję elementów po prawej stronie */
+}
+
+.timeline-item-content {
+    padding: 20px 30px; /* Dodaje odstępy wewnętrzne */
+    background-color: #f9f9f9; /* Ustawia kolor tła */
+    position: relative; /* Ustawia pozycjonowanie relatywne */
+    border-radius: 6px; /* Zaokrągla rogi */
+}
+
+.timeline-item-content h2 {
+    margin-top: 0; /* Usuwa odstęp powyżej nagłówka */
+    color: #333; /* Ustawia kolor tekstu */
+}
+
+.timeline-item-content p {
+    margin: 10px 0; /* Dodaje odstępy powyżej i poniżej akapitu */
+    color: #777; /* Ustawia kolor tekstu */
+}
+
+.timeline-item-content time {
+    display: block; /* Ustawia wyświetlanie jako blok */
+    margin-top: 10px; /* Dodaje odstęp powyżej */
+    color: #aaa; /* Ustawia kolor tekstu */
+}
+
+#gallery-container {
+    position: sticky; /* Ustawia pozycjonowanie, aby element pozostawał widoczny podczas przewijania */
+    top: 50px; /* Ustawia odległość od góry */
+    margin-top: 50px; /* Dodaje odstęp powyżej kontenera galerii */
+}
+
+#history-content {
+    max-height: 150px; /* Ustawia maksymalną wysokość kontenera */
+    overflow: hidden; /* Ukrywa zawartość, która przekracza wysokość kontenera */
+    text-overflow: ellipsis; /* Dodaje wielokropek (...) przy obciętym tekście */
+}
+
+.pagination-container {
+    display: flex; /* Ustawia elastyczny układ kontenera */
+    justify-content: space-between; /* Rozkłada elementy równomiernie z przestrzenią między nimi */
+    margin-bottom: 20px; /* Dodaje odstęp poniżej kontenera paginacji */
+}
+
+/* Nowa sekcja na dole strony */
+.future-section {
+    padding: 40px 20px; /* Dodaje wewnętrzne odstępy */
+    background-color: #f4f4f4; /* Ustawia kolor tła */
+    border-radius: 8px; /* Zaokrągla rogi */
+    margin-top: 50px; /* Dodaje odstęp powyżej sekcji */
+}
+
+.future-section h2 {
+    margin-bottom: 20px; /* Dodaje odstęp poniżej nagłówka */
+    font-weight: bold; /* Ustawia pogrubienie czcionki */
+}
+
+#fixed-image {
+    width: 100%; /* Ustawia szerokość obrazu na 100% kontenera */
+    height: auto; /* Automatycznie dostosowuje wysokość, aby zachować proporcje */
+    margin-top: 280px; /* Dodaje odstęp powyżej obrazu */
+}

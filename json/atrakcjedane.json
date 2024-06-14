@@ -1,0 +1,74 @@
+{
+    "attractions": [
+        {
+            "title": "Brama Krakowska",
+            "images": ["assets/img/bramakrakowska.jpg", "assets/img/bramakrakowska2.jpg"],
+            "text": "Ikona miasta z bogatą historią. Dziś, w Bramie Krakowskiej znajduje się Muzeum Historii Miasta Lublina, które opowiada o dziejach miasta począwszy od VI wieku, a kończąc na dziejach II wojny światowej. Jest tutaj również XVI wieczny, uszkodzony podczas działań II wojny, dzwon zegarowy oraz sam mechanizm z 1903 roku. Całkiem ciekawie prezentują się również kręte schody, które powinny szczególnie ucieszyć miłośników fotografii. Warto wspomnieć, że Brama Krakowska jest dziś jednym z najważniejszych symboli Lublina. Podążając dalej, kilkadziesiąt metrów wzdłuż ulicy Bramowej, dotrzecie do serca Lublina, na czarujący Rynek.",
+            "lat": 51.247692,
+            "lng": 22.566667
+        },
+        {
+            "title": "Zamek Lubelski",
+            "images": ["assets/img/zamek1.jpg", "assets/img/zameklublin2.jpg"],
+            "text": "Zabytkowe początki zamku związane są z powstaniem w XII wieku kasztelanii lubelskiej, kiedy to na wzgórzu otoczonym rozlewiskami powstał gród umocniony drewniano-ziemnym wałem. Z czasem pojawiała się tutaj murowana wieża, która pełniła funkcje obronno-rezydencjonalną. Jednak dopiero za panowania Kazimierza Wielkiego wzniesiono murowany zamek. Był on przez wieki wielokrotnie przebudowywany. Obecny wygląd zawdzięcza przebudowie z XIX wieku.",
+            "lat": 51.25049869378656,
+            "lng": 22.572407573491247
+        },
+        {
+            "title": "Archikatedra Lubelska",
+            "images": ["assets/img/archikatedra1.jpg", "assets/img/archikatedra2.jpg", "assets/img/archikatedra3.jpg"],
+            "text": "Wspaniała barokowa świątynia. Będąc na tarasie Wieży Trynitarskiej, Waszą uwagę z pewnością zwrócił jeden z największych kościołów w Lublinie. Jest to Archikatedra św. Jana Chrzciciela i św. Jana Ewangelisty. Świątynia powstała w latach 1586-1625 i jest perłą baroku na Lubelszczyźnie. Koniecznie wejdźcie do środka, aby zobaczyć jego pięknie i bogato wykończone wnętrza.",
+            "lat": 51.246770031426294,
+            "lng": 22.568381873498357
+        },
+        {
+            "title": "Wieża Trynitarska",
+            "images": ["assets/img/wieza1.jpg", "assets/img/wieza2.jpg", "assets/img/wieza3.jpg"],
+            "text": "Neogotycka Wieża Trynitarska została wzniesiona w miejscu dawnej furty miejskiej i pełniła funkcję dzwonnicy. Nazwa wieży pochodzi od Zakonu Trynitarzy, którzy zamieszkiwali w pobliskich pojezuickich zabudowaniach klasztornych. Dzisiejszy wygląd zawdzięcza projektowi Antonia Corazzi i przebudowie z roku 1819. Jest najwyższym punktem zabudowy staromiejskiej Lublina, a platforma widokowa umieszczona na wysokości 40 metrów pozwala spojrzeć hen daleko na całe miasto. Naszym zdaniem, jeśli mielibyście dylemat, czy wejść tutaj, czy też na Bramę Krakowską, to wybralibyśmy właśnie Wieżę Trynitarską.",
+            "lat": 51.24701592041698,
+            "lng": 22.568126996384688
+        },
+        {
+            "title": "Plac Litewski w Lublinie",
+            "images": ["assets/img/litewski1.jpg", "assets/img/litewski2.jpg", "assets/img/litewski3.jpg"],
+            "text": "Plac Litewski jest bardzo przyjemnym miejscem, ze sporą ilością drzew, ławek i idealnie nadaje się na chwilę przerwy. Powstał on na terenie dawnego Krakowskiego Przedmieścia, nieco poza jego zwartą zabudową, w latach 20’ XIX wieku. Pierwotnie miały tutaj odbywać się parady wojskowe, stąd nie może dziwić jego poprzednia nazwa – Plac Musztry. Przez wieki zawirowań był to również plac Adolfa Hitlera, czy też Józefa Stalina. Jest to miejsce, które według tradycji gościło obradujących w roku 1569 litewskich szlachciców przed zawarciem Unii lubelskiej. Jak również, według niepotwierdzonej legendy, miejscem odebrania przez Zygmunta Augusta hołdu i przysięgi lennej od księcia pruskiego Albrechta Fryderyka.",
+            "lat": 51.24785307755281,
+            "lng": 22.56025338900374
+        },
+        {
+            "title": "Ogród Saski w Lublinie",
+            "images": ["assets/img/saski.jpg", "assets/img/saski2.jpg", "assets/img/saski3.jpg"],
+            "text": "Jeśli szukacie miejsca, w którym można odpocząć spacerując zielonymi alejkami, to Ogród Saski będzie doskonałym pomysłem. Znajdziecie go przy Alejach Racławickich, które są przedłużeniem Krakowskiego Przedmieścia. Ogród Saski jest najstarszym parkiem Lublina, został założony w 1837 roku w stylu angielskim, według projektu inż. Feliksa Bieczyńskiego. Obecna nazwa funkcjonuje od 1860 roku, w nawiązaniu do Ogrodu Saskiego w Warszawie.",
+            "lat": 51.24883023512752,
+            "lng": 22.54716504446469
+        },
+        {
+            "title": "Centrum Spotkania Kultur",
+            "images": ["assets/img/csk.jpg", "assets/img/csk2.jpg"],
+            "text": "Na wysokości Ogrodu Saskiego, po drugiej stronie Alei Racławickich, odnajdziecie spory budynek o surowym wyglądzie. Będzie to Centrum Spotkania Kultur. Jeśli akurat nie panują pandemiczne ograniczenia, to warto wejść do środka i wyjechać na tarasy widokowe. Wejście jest darmowe, a spaceruje się tutaj w otoczeniu drzew i krzewów. Urocze miejsce. W budynku działa m.in. teatr, kino oraz pub Wielokran należący do Browaru Zakładowego z Poniatowej.",
+            "lat": 51.24691686974124,
+            "lng": 22.548398394732263
+        },
+        {
+            "title": "Muzeum Wsi Lubelskiej",
+            "images": ["assets/img/mwl.jpg", "assets/img/mwl2.jpg", "assets/img/mwl3.jpg"],
+            "text": "Choć Muzeum Wsi Lubelskiej znajduje się na obrzeżach miasta, to do wizyty tutaj bardzo Was namawiamy. Muzeum malowniczo przycupnęło w dolinie rzeki Czechówki, pod adresem Warszawska 96. Jest to jeden z największych skansenów w Polsce, w którym odnajdziecie budynki przeniesione z niewielkich miasteczek Lubelszczyzny. Całość w piękny sposób ukazuje kulturową różnorodność województwa. Dojedziecie tutaj autobusami komunikacji miejskiej nr 18, 20, 30, 37. Przed muzeum znajduje się całkiem spory parking.",
+            "lat": 51.262048971004916,
+            "lng": 22.506511446056685
+        },
+        {
+            "title": "Ogród botaniczny UMCS oraz dworek Kościuszków",
+            "images": ["assets/img/dwor.jpg", "assets/img/umcsogrod.jpg"],
+            "text": "Wizytę w Muzeum Wsi Lubelskiej śmiało można połączyć ze spacerem po sąsiednim Ogrodzie Botanicznym UMCS. Choć warto odnotować, że wejście do tej atrakcji znajduje się od strony ulicy Willowej, czyli po przeciwnej stronie ogrodu, aniżeli jest muzeum. Przy samym wejściu znajduje się bezpłatny parking, na którym pomieści się nawet setka samochodów. Na miejsce możecie również dotrzeć autobusami numer: 2, 7, 37, 47.Warto również wspomnieć o zabytkowym Dworku Kościuszków, którego właścicielem kiedyś był starosta krzemieniecki Jan Nepomucen Kościuszko, stryj Tadeusza Kościuszki.",
+            "lat": 51.26575319803471,
+            "lng": 22.51668150997028
+        },
+        {
+            "title": "Regionalne Muzeum Cebularza",
+            "images": ["assets/img/cebularz.jpg", "assets/img/cebularz2.jpg"],
+            "text": "Najsłynniejszym lubelskim rarytasem jest wywodzący się z kuchni żydowskiej cebularz. Jest to w skrócie pszenny placek, na którym znajdziecie pokrojoną cebulę wymieszaną z makiem. Od kilku lat cebularz ma status produktu regionalnego, który jest chroniony prawem Unii Europejskiej. Dlatego będąc w Lublinie warto rozważyć wycieczkę do muzeum, gdzie poznacie tajniki cebularza. A przy okazji upieczecie własną sztukę! Na wizytę w Muzeum Cebularza trzeba zarezerwować sobie około godziny. Znajduje się ono przy ulicy Szewskiej 4.",
+            "lat": 51.248934376128965,
+            "lng": 22.56763582428102
+        }
+    ]
+}

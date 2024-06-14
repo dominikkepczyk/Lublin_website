@@ -1,0 +1,22 @@
+{
+    "images": [
+        { "src": "assets/img/galeria1.jpg", "title": "Widok na stare miasto" },
+        { "src": "assets/img/galeria2.jpg", "title": "Dworzec Lublin" },
+        { "src": "assets/img/galeria3.jpg", "title": "Archikatedra" },
+        { "src": "assets/img/galeria4.jpg", "title": "Krakowskie Przedmieście" },
+        { "src": "assets/img/galeria5.jpg", "title": "Muzeum Wsi Lubelskiej" },
+        { "src": "assets/img/galeria6.jpg", "title": "Widok z CSK" },
+        { "src": "assets/img/galeria7.jpg", "title": "Lotnisko Lublin" },
+        { "src": "assets/img/galeria8.jpg", "title": "Brama Krakowska" },
+        { "src": "assets/img/galeria9.jpg", "title": "Hala Globus" },
+        { "src": "assets/img/galeria10.jpg", "title": "Widok z lotu ptaka" },
+        { "src": "assets/img/galeria11.jpg", "title": "Hala MOSiR" },
+        { "src": "assets/img/galeria12.jpg", "title": "Galeria Vivo" },
+        { "src": "assets/img/galeria13.jpg", "title": "Plac podzamkowy" },
+        { "src": "assets/img/galeria14.jpg", "title": "Plac po Farze" },
+        { "src": "assets/img/galeria15.jpg", "title": "Arena Lublin Stadion" },
+        { "src": "assets/img/galeria16.jpg", "title": "Lublin Lata 80" },
+        { "src": "assets/img/galeria17.jpg", "title": "Hotel Europa" },
+        { "src": "assets/img/galeria18.jpg", "title": "Fontanny na placu litewskim" }
+    ]
+}
